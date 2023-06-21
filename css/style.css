@@ -1,0 +1,130 @@
+.container{
+    padding-bottom: 20px;
+}
+/* draggable */
+#draggable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 15px; 
+    background-color: rgb(54, 54, 150);
+    color: aliceblue;
+
+}
+/* droppable */
+#draggable1 { 
+    width: 100px; 
+    height: 100px; 
+    padding: 10px; 
+    background-color: rgb(54, 54, 150);
+    color: aliceblue;
+    margin: 10px 10px 10px 0; 
+}
+  #droppable {    
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+}
+    
+/* Resizable */
+#resizable { 
+    width: 200px; 
+    height: 150px; 
+    padding: 10px; 
+    margin-bottom: 50px;
+}
+
+#resizable h3 { 
+    text-align: center; 
+    margin: 0; 
+}
+/* Selectable */
+
+#selectable .ui-selecting {
+    background: #FECA40; 
+}
+#selectable .ui-selected { 
+    background: #F39814; 
+    color: white; 
+}
+#selectable {  
+    list-style-type: none; 
+    margin: 0; padding: 0; 
+    width: 60%; 
+}
+#selectable li { 
+    margin: 3px; 
+    padding: 0.4em;
+    font-size: 20px; 
+    height: 50px;
+}
+/* Sortable */
+#sortable { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 60%; 
+}
+  #sortable li { 
+    margin: 0 3px 3px 3px; 
+    padding: 5px; 
+    padding-left: 20px; 
+    font-size: 20px;  
+}
+  #sortable li span {  
+    margin-left: -20px; 
+}
+/* Accordion */
+    #accordion{
+        width: 60%;
+    
+}
+/* Add Class */
+
+.toggler { 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+#button { 
+        padding: 8px 16px; 
+        text-decoration: none; 
+}
+#effect { 
+        width: 240px;  
+        padding: 16px; 
+        border: 1px solid #000; 
+        background: #eee; 
+        color: #333; 
+}
+.newClass { 
+        padding: 30px; 
+        margin: 10px; 
+        font-size: 18px; 
+        text-indent: 40px; 
+        letter-spacing: 5px; 
+        width: 450px; 
+        height: 190px; 
+       
+}
+ /* Color Animation */
+ .toggler1 { 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+#button1 { 
+        padding: .5em 1em; text-decoration: none; 
+}
+#effect1 { 
+        width: 240px; 
+        height: 190px; 
+        padding: 0.4em; 
+        position: relative; 
+        background: #fff; 
+}
+#effect1 h3 { 
+    margin: 0; 
+    padding: 0.4em; 
+    text-align: center; 
+}
+
